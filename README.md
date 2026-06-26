@@ -24,6 +24,38 @@ A beginner-friendly SQL project built with SQLite to practice relational databas
 * **Members** – Stores library member details
 * **BorrowedBooks** – Tracks which member borrowed which book
 
+## ER Diagram
+
++------------------+
+|      Books       |
++------------------+
+| PK BookID        |
+| Title            |
+| Author           |
+| Category         |
++------------------+
+        |
+        | FK BookID
+        |
++----------------------+
+|   BorrowedBooks      |
++----------------------+
+| PK BorrowID          |
+| FK BookID            |
+| FK MemberID          |
+| BorrowDate           |
++----------------------+
+        |
+        | FK MemberID
+        |
++------------------+
+|     Members      |
++------------------+
+| PK MemberID      |
+| Name             |
+| City             |
++------------------+
+
 ## Project Structure
 
 ```text
