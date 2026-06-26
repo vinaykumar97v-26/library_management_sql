@@ -26,6 +26,9 @@ A beginner-friendly SQL project built with SQLite to practice relational databas
 
 ## ER Diagram
 
+## ER Diagram
+
+```text
 +------------------+
 |      Books       |
 +------------------+
@@ -55,17 +58,6 @@ A beginner-friendly SQL project built with SQLite to practice relational databas
 | Name             |
 | City             |
 +------------------+
-
-## Project Structure
-
-```text
-library-management-sql/
-├── README.md
-├── library_database.db
-├── schema.sql
-├── data.sql
-├── queries.sql
-└── screenshots/
 ```
 
 ## Sample Queries
