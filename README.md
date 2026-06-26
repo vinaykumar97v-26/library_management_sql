@@ -1,6 +1,6 @@
 # Library Management SQL
 
-A beginner-friendly SQL project built with SQLite to practice relational database design using multiple tables and `INNER JOIN`.
+A beginner-friendly SQL project built with SQLite to practice relational database design using multiple tables using 'PRIMARY KEY', 'FOREIGN KEY' and `INNER JOIN`.
 
 ## Tech Stack
 
@@ -13,7 +13,7 @@ A beginner-friendly SQL project built with SQLite to practice relational databas
 
 * Create a relational database
 * Design multiple related tables
-* Use Primary Keys and Foreign Keys
+* Use 'PRIMARY KEY' and 'FOREIGN KEY'
 * Insert sample library data
 * Retrieve data using `INNER JOIN`
 * Perform basic filtering and aggregation
